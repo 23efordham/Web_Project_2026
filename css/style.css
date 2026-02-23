@@ -1,1 +1,26 @@
+/* 
+Type selector */
+body {
+    background-color: #f4f4f4;
+    color: #333333;
+    font-size: 1rem;
+}
+
+/* 
+Class selector */
+.highlight {
+    color: darkblue;
+}
+
+/* 
+ID selector */
+#main-heading {
+    color: #0056b3;
+}
+
+/* 
+Descendant selector */
+nav a {
+    color: darkred;
+}
 
