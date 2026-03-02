@@ -24,23 +24,6 @@ nav a {
     color: darkred;
 }
 
-/* =========================
-   TEMPORARY DEBUG TOOL
-   Uncomment to see all boxes
-   REMOVE or comment out before submitting
-========================= */
-
-/*
-* {
-  border: 1px solid black;
-}
-*/
-
-
-/* =========================
-   MAIN LAYOUT STYLING
-========================= */
-
 main {
   width: 60rem;             
   margin: 2rem auto;         
