@@ -24,3 +24,54 @@ nav a {
     color: darkred;
 }
 
+/* =========================
+   TEMPORARY DEBUG TOOL
+   Uncomment to see all boxes
+   REMOVE or comment out before submitting
+========================= */
+
+/*
+* {
+  border: 1px solid black;
+}
+*/
+
+
+/* =========================
+   MAIN LAYOUT STYLING
+========================= */
+
+main {
+  width: 60rem;             
+  margin: 2rem auto;         
+  padding: 1.5rem;           
+  border: 3px solid #333;    
+}
+
+
+section {
+  margin: 2rem 0;            
+  padding: 1rem;            
+  border: 2px solid #999;
+}
+
+p {
+  margin-bottom: 1.25rem;
+  padding: 0.5rem;
+}
+
+
+.parent-box {
+  width: 300px;
+  border: 3px solid black;
+  margin-top: 2rem;
+}
+
+.child-box {
+  width: 100%;
+  padding: 20px;
+  border: 3px solid red;
+
+  /* This fixes overflow */
+  box-sizing: border-box;
+}
